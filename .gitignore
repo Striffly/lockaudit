@@ -1,0 +1,18 @@
+# Build output
+/bin/
+/lockaudit
+
+# Local configuration — contains the GitLab token
+.env
+.env.local
+
+# Reports
+*.sarif
+report.json
+
+# Go
+*.test
+*.out
+
+# Generated report
+/lockaudit-report.md
